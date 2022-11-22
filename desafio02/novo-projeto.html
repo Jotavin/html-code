@@ -4,104 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qual Comprar</title>
-    <style>
-        *{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-html{
-    overflow-x: hidden;
-}
-aside{
-    background-color: #414141;
-    color: white;
-    width: 100vw;
-    height: 5vh;
-    box-shadow: 0px 5px #FD8A24;                   
-}
-p{
-    line-height: 30px;
-    color: rgb(49, 49, 49);
-    font-size: 19px;
-    padding: 10px 0;
-}
-h3{
-    text-align: center;
-    padding-top: 7px;
-    font-weight: normal;
-    font-size: 26px;
-}
-header{
-    max-width: 900px;
-    margin: auto;
-}
-h1{
-    padding: 40px 0 0 0;
-    font-size: 3.5em;
-}
-
-article{
-    max-width: 700px;
-    margin: auto;
-}
-img.sociais {
-    width: 20px;
-    margin-right: 10px;
-}
-img.ilustracao{
-    max-width: 600px;
-    padding: 40px 0;
-}
-a{
-    color: #D66500;
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
-footer{
-    background-color: #414141;
-    height: 7vh;
-    margin-top: 30px;
-}
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Qual comprar</title>
 </head>
 <body>
-    <aside>
-        <h3>Qual Comprar?</h3>
-    </aside>
-
-    <header>
-        <h1>Os ‘vilões’ da luz: veja o que mais gasta energia e como economizar</h1>
-        <p>Ar-condicionado, notebook, máquina de lavar e outros eletrodomésticos da sua casa podem pesar na conta de luz no final do mês; veja dicas para usá-los e economizar</p>
-        <p><strong><small>Por Carolina Zanatta, do TechTudo</small></strong></p>
-        <p><small>29/01/2022 08h00 • Atualizado há 9 meses</small></p>
-        <img class="sociais" src="imagens/facebook.webp" alt="Logo do Facebook">
-        <img class="sociais" src="imagens/twitter.png" alt="Logo do Twitter">
-        <img class="sociais" src="imagens/whatsapp.png" alt="Logo do WhatsApp"> <hr>
-    </header>
-    <article>
-        <section>
+    <div class="top-bar">Qual comprar?</div>
+    <div class="container">
+        <div class="header">
+            <h1 class="headline">
+                Os ‘vilões’ da luz: veja o que mais gasta energia e como economizar
+            </h1>
+            <h2 class="subtitle">
+                Ar-condicionado, notebook, máquina de lavar e outros eletrodomésticos da sua casa podem pesar na conta de luz no final do mês; veja dicas para usá-los e economizar
+            </h2>
+            <div>
+                <div class="author"a>
+                    Por Carolina Zanatta, do TechTudo
+                </div>
+                <small><sub>
+                    29/01/2022 08h00 • Atualizado há 9 meses
+                </sub></small>
+            </div>
+            <div class="social-icons">
+                <a href="">
+                    <img class="social-icon" src="imagens/facebook.webp" alt="Facebook">
+                </a>
+                <a href="">
+                    <img class="social-icon" src="imagens/twitter.png" alt="Twitter">
+                </a>
+                <a href="">
+                    <img class="social-icon" src="imagens/whatsapp.png" alt="Whatsapp">
+                </a>
+            </div>
+            <hr>
+        </div>
+        <div class="content">
             <p>
                 Alguns eletrônicos e eletrodomésticos da sua casa consomem mais energia do que outros. Em 2021, houve um aumento de 20% na conta de luz, e uma tarifa adicional de R$ 14 passou a ser cobrada a cada 100 kWh (Quilowatt-hora, medida de energia) consumidos. Para economizar nos gastos, entender como os dispositivos que você mais usa funcionam, como o ar-condicionado, notebook e máquina de lavar, pode fazer diferença no preço do boleto do fim do mês.
             </p>
-
             <p>
                 Aparelhos que transformam energia elétrica em calor, como geladeiras e chuveiros, são os que mais impactam na conta de luz. No entanto, sem uso consciente, até mesmo itens como computadores e videogames podem pesar no final do mês. Veja a seguir quais são os eletrônicos e eletrodomésticos que mais consomem energia na sua casa. Também conversamos com o coordenador do programa de energia e sustentabilidade do Instituto Brasileiro de Defesa do Consumidor (Idec), Clauber Leite, que deu dicas que vão te ajudar a economizar.
-
             </p>
-
-            <p>LEIA: <a href="https://www.techtudo.com.br/listas/2022/01/5-coisas-que-a-sua-smart-tv-sabe-sobre-voce-e-como-se-proteger.ghtml">5 coisas que a sua Smart TV sabe sobre você e como se proteger</a></p>
-            
+            <div class="cta">
+                LEIA: <a href="">5 coisas que a sua Smart TV sabe sobre você e como se proteger</a>
+            </div>
             <figure>
-                <img class="ilustracao" src="imagens/post1.webp" alt="">
+                <img src="imagens/post1.webp" alt="">
                 <figcaption>Economia de energia depende também dos eletrônicos e eletrodomésticos que você usa — Foto: iStock</figcaption>
             </figure>
-            <p><a href="https://forum.techtudo.globo.com/perguntas/326692/economizar-energia-como-diminuir-a-conta-de-luz-com-a-bandeira-vermelha" target="_blank">Economizar energia: como diminuir a conta de luz com a bandeira vermelha?</a> Veja mais dicas no Fórum do TechTudo.</p>
-        </section>
-        <section>
+            <div class="cta">
+                <a href="">Economizar energia: como diminuir a conta de luz com a bandeira vermelha?</a> Veja mais dicas no Fórum do TechTudo.
+            </div>
             <h2>1. Geladeira</h2>
             <p>
                 Essencial em nossas vidas, a geladeira ajuda a manter alimentos e bebidas em um bom estado de conservação. Para isso, ela retira o seu calor interno, transferindo-o para a região externa a ela. Esse processo de transformação é bastante custoso porque envolve a transformação de energia elétrica em calor, o que consome bastante luz.
@@ -116,7 +69,7 @@ footer{
                 Por isso, de acordo com Clauber, o ideal é manter uma relação consciente com a geladeira, abrindo-a apenas quando necessário. Desse modo, para quem deseja economia, aquela clássica história de passar vários minutos com a porta aberta, apenas encarando o interior do eletrodoméstico, também deve ser deixada de lado.
             </p>
             <figure>
-                <img class="ilustracao" src="imagens/post2.webp" alt="Fogo de uma geladeira aberta">
+                <img src="imagens/post2.webp" alt="">
                 <figcaption>Evite abrir sua geladeira em excesso — Foto: Reprodução/LG</figcaption>
             </figure>
             <p>
@@ -125,14 +78,13 @@ footer{
             <p>
                 Clauber Leite lembrou ainda do termostato, que deve ser ajustado de acordo com as condições climáticas de onde moramos. Assim, em dias mais frios, por exemplo, a geladeira pode funcionar a temperaturas mais altas - o que ajuda bastante na economia do final do mês.
             </p>
-        </section>
-        <section>
-            <h2>2. Chuveiro Elétrico</h2>
+            <h2>2. Chuveiro elétrico</h2>
             <p>
                 Seguindo a mesma lógica da geladeira, o chuveiro elétrico é outro "inimigo" da conta de luz. O motivo é simples: para aquecer a água, o aparelho também precisa converter energia em calor. Como o processo é custoso para o dispositivo, seu consumo energético acaba sendo alto também.
-            </p>            
-        </section>
-    </article>
-    <footer></footer>
+            </p>
+            
+        </div>        
+    </div>
+    <div class="footer"></div>
 </body>
 </html>
